@@ -1,0 +1,61 @@
+/* 
+
+
+
+div#content {
+    padding-bottom: 45px;  
+    margin: 0; 
+}
+
+div#footer {
+	width:100%;
+	position:absolute;
+    bottom:0;
+	left:0;
+    background-color: rgba(204, 204, 204, 0.5)
+}
+
+div#footer li {
+    float: left;
+    padding-left: 120px;
+    padding-right: 120px;
+    font-size: 0.8em
+}
+*/
+body {
+    background-image: url(fotos/7.jpg);
+    background-repeat: repeat-y;
+    font-family: "Arial", Arial, sans-serif
+}
+
+ul#header img{
+    width: 78px;
+    height: auto
+}
+
+li {
+    list-style: none;
+}
+
+#header li {
+    float: left; 
+    padding: 10
+}
+
+#header li:first-child {
+    float: left; 
+}
+
+#header li:nth-child(2) {
+    float: left; 
+    padding-right: 250;
+    font-size: 5em;
+ 
+}
+
+#social {
+    width: 15px;
+    height: 15px;
+    padding-left: 5px;
+    padding-right: 5px
+}

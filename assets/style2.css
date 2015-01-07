@@ -1,0 +1,48 @@
+body {
+        background-image: url(fotos/1.jpg);
+        background-repeat: repeat-y;
+        font-family: "Arial", Arial, sans-serif
+}
+#header{
+        width:100%;
+        min-width:960px;
+        margin:auto;
+}
+#header li{
+        float: left;
+        padding-left: 10px;
+        padding-right: 10px
+}
+#content{
+        width:960px;
+    min-height: 400px;
+        margin:auto;
+}
+#footer{
+        width:100%;
+        min-width:960px;
+        margin:auto;
+}
+li {    
+        list-style: none;
+}
+a {
+        color: white;
+        text-decoration: none
+}
+#header img{
+        width: 78px;
+        height: auto
+}
+#footer li {
+        float: left;
+        padding-left: 120px;
+        padding-right: 120px;
+        font-size: 0.8em
+}
+#social {
+        width: 15px;
+        height: 15px;
+        padding-left: 5px;
+        padding-right: 5px
+}

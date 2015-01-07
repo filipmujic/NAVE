@@ -1,0 +1,70 @@
+.nav {
+   page-break-after: 0px
+}
+.nav ul:nth-child(2) {
+    vertical-align: bottom
+}
+.nav ul:nth-child(2) li{
+    float: left;
+    vertical-align: inherit;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nav ul:nth-child(2) li a {
+    vertical-align: inherit;
+}
+
+.nav ul:first-child {
+    vertical-align: bottom;
+    padding: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.nav ul:first-child li{
+    font-size: 4em;
+    padding: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    vertical-align: bottom;
+}
+.jumbotron {
+    background-image: url(fotos/4.jpg);
+    height: 350px
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+div.nav img {
+    width: 78px;
+    height: inherit
+}
+
+li {
+    list-style: none;
+}
+
+
+
+#social {
+    width: 15px;
+    height: 15px;
+    padding-left: 5px;
+    padding-right: 5px
+}
