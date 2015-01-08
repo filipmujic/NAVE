@@ -47,23 +47,123 @@ table {
 	border-spacing: 0;
 }
 
+
+
 /* Layout Element Colors
 ================================ */
 
-.header       { background-color: #384047; }
+.header       { background-color: #e9ebc0; }
 .logo         { background-color: #5fcf80; }
-.nav li       { background-color: #3f8abf; }
+.nav li       { background-color: #90c5ef; }
 .content      { background-color: #caebf6; }
 .footer       { background-color: #bfe3d0; }
 .footer-nav   { background-color: #b7c0c7; }
 
+/* General
+================================= */
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+html {
+
+}
+body {
+    
+}
+.logo a,
+.nav a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
 /* Header
 ================================= */
+.header {
+    min-height: 100px;
+    padding: 15px;
+    overflow: hidden
+}
+.logo, 
+.nav {
+    position: relative;
+}
+.logo {
+    width: 150px;
+    height: 30px;
+    top: 0px;
+    left: 5px;
+    float: left;
+}
+.nav {
+    display: inline-block;
+    top: 0px;
+    left: 50px;
+}
+.nav li {
+    float:right;
+    display: inline-block;
+    height: 30px;
+    margin-right: 6px;
+    margin-left: 6px;
+}
+.nav li,
+.logo {
+    border-radius: 5px
+}
 
+
+
+/* .logo,
+.nav {
+    display: inline-block;
+}
+.logo, 
+.nav li {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.nav {
+    float: right
+}
+.nav li {
+    float: left;
+    margin-left: 6px;
+}*/
+
+
+/*
+.logo {
+    display: inline-block;
+    float: left;
+    
+}
+.nav {
+    display: inline-block;
+    float: right;
+
+}
+.nav li {
+    float: left;
+}
+*/
 
 /* Content
 ================================= */
+.content {
 
+}
 
 /* Footer
 ================================= */
+.footer {
+    
+}
+.footer-nav {
+    
+}
+.footer-nav li {
+
+}
